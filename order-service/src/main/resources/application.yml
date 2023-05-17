@@ -18,3 +18,9 @@ logging:
     cn.itbill: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
+
+
+eureka:
+  client:
+    service-url: # eureka的地址信息，本身也是也是一个微服务，是为了该服务的注册
+      defaultZone: http://127.0.0.1:10086/eureka
