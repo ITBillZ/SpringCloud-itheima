@@ -5,9 +5,7 @@ spring:
     url: jdbc:mysql://175.178.164.43:3306/cloud_user?useSSL=false
     username: sc-itheima
     password: Ea8mEiKnSCzMYEfX
-    driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: userservice
+    driver-class-name: com.mysql.cj.jdbc.Driver
 
 mybatis:
   type-aliases-package: cn.itbill.user.pojo
@@ -18,8 +16,3 @@ logging:
     cn.itbill: debug
   pattern:
     dateformat: MM-dd HH:mm:ss:SSS
-
-eureka:
-  client:
-    service-url:
-      defaultZone: http://127.0.0.1:10086/eureka
