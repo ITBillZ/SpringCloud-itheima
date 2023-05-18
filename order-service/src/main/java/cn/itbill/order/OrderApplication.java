@@ -21,12 +21,4 @@ public class OrderApplication {
         SpringApplication.run(OrderApplication.class, args);
     }
 
-    /**
-     * 创建RestTemplate并注入spring容器
-     */
-//    @Bean
-//    @LoadBalanced  // 负载均衡
-//    public RestTemplate restTemplate() {
-//        return new RestTemplate();
-//    }
 }
