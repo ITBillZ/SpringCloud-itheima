@@ -1,6 +1,6 @@
 package cn.itbill.order.pojo;
 
-import cn.itbill.user.pojo.User;
+import cn.itbill.feign.pojo.User;
 import lombok.Data;
 
 @Data
